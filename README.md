@@ -147,7 +147,7 @@ Accessing a mysql database using R without the sas access product
     library(SASxport);                                                                                                                 
     library(RMySQL);                                                                                                                   
     have<-as.data.table(read_sas("d:/sd1/have.sas7bdat"));                                                                             
-    DB <- dbConnect(MySQL(), user="root", password="sas28rlx",dbname="sakila", host="localhost");                                      
+    DB <- dbConnect(MySQL(), user="root", password="xxxxxxx",dbname="sakila", host="localhost");                                      
     summary(DB);                                                                                                                       
     /*                                                                                                                                 
     <MySQLConnection:0,0>                                                                                                              
